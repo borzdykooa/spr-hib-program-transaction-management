@@ -1,0 +1,16 @@
+2018-11-01 14:23:00,973 INFO  - HHH000412: Hibernate Core {5.2.16.Final}
+2018-11-01 14:23:00,978 INFO  - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.PostgreSQL95Dialect, hibernate.show_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.auto=update, hibernate.format_sql=true}
+2018-11-01 14:23:01,046 INFO  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-11-01 14:23:01,253 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-11-01 14:23:01,398 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-11-01 14:23:01,400 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4c5474f5
+2018-11-01 14:23:02,253 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-11-01 14:23:02,430 INFO  - Method findAll is called in TraineeDao
+2018-11-01 14:23:02,457 INFO  - List of Trainees: [Trainee(id=1, name=Olga Borzdyko, trainer=Trainer(id=2, name=Ivan Ishchenko, language=Java, experience=6)), Trainee(id=2, name=Denis Byhovsky, trainer=Trainer(id=2, name=Ivan Ishchenko, language=Java, experience=6))]
+2018-11-01 14:23:02,572 INFO  - Method save is called in TraineeDao
+2018-11-01 14:23:02,575 INFO  - Trainee(id=5, name=Alexandr Alexandrov, trainer=Trainer(id=3, name=Andrei Reut, language=Java, experience=6)) has been saved successfully!
+2018-11-01 14:23:02,677 INFO  - Method find is called in TrainerDao
+2018-11-01 14:23:02,679 INFO  - Trainer(id=5, name=Andrei Reut, language=Java, experience=6) has been found
+2018-11-01 14:23:02,749 INFO  - Method save is called in TrainerDao
+2018-11-01 14:23:02,751 INFO  - Trainer(id=9, name=Nikolai Nikolaev, language=C, experience=12) has been saved successfully!
+2018-11-01 14:23:02,850 INFO  - Method save is called in TrainerDao
